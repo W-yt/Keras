@@ -60,11 +60,11 @@ if __name__ == "__main__":
 
     DogType = ["哈士奇","德国牧羊犬","拉布拉多","萨摩耶犬"]
 
-    #修改名字
-    FileReName(DogType = DogType,FilePath = "raw_image/")
-
-    #修改尺寸
-    FileResize(DogType = DogType,FilePath = "raw_image/",Output_folder = "train_image/")
-
-    #准备好的数据
-    DataSet(train_folder = "train_image/")
+    # #修改名字
+    # FileReName(DogType = DogType,FilePath = "raw_image/")
+    #
+    # #修改尺寸
+    # FileResize(DogType = DogType,FilePath = "raw_image/",Output_folder = "train_image/")
+    #
+    # #准备好的数据
+    # DataSet(train_folder = "train_image/")
