@@ -76,6 +76,7 @@ model.fit(x_train,
           validation_data = (x_test,y_test),
           verbose = 1)
 
+#没有保存模型
 
 
 
